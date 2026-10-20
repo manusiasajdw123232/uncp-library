@@ -1,0 +1,1 @@
+<?php require __DIR__.'/app/core/bootstrap.php'; $u=auth_user(); if($u) log_activity($pdo,(int)$u['id'],$u['role_name'],'Logout','Keluar dari sistem'); $_SESSION=[];session_destroy();redirect('/login.php');

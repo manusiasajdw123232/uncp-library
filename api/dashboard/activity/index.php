@@ -1,0 +1,1 @@
+<?php require __DIR__.'/../../../app/core/bootstrap.php'; require_roles(['penjaga']); header('Content-Type: application/json');$rows=$pdo->query('SELECT a.*,u.name FROM activity_logs a LEFT JOIN users u ON u.id=a.user_id ORDER BY a.id DESC LIMIT 30')->fetchAll();echo json_encode($rows);

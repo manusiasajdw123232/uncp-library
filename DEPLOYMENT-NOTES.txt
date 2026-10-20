@@ -1,0 +1,8 @@
+UNCP Library Repository - paket file aplikasi untuk hosting PHP/MySQL
+
+Isi paket mempertahankan konten file sumber yang dipilih tanpa mengeditnya.
+File database SQL tidak disertakan; gunakan paket uncp-library-database-files.zip untuk impor melalui phpMyAdmin.
+Jangan unggah .env.example sebagai konfigurasi final. Buat .env berdasarkan contoh ini dan isi kredensial hosting secara aman.
+Folder public/ tidak disertakan karena public/index.php pada arsip asal hanya mengarahkan ke root dan aplikasi memakai /assets/ dari root.
+File foto contoh di uploads/profile/ tidak disertakan demi privasi; folder dan aturan .htaccess tetap ada.
+Sebelum produksi, tinjau keamanan konfigurasi dan pastikan folder aplikasi tidak dapat mengeksekusi PHP dari uploads.

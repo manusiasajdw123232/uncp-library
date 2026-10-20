@@ -1,0 +1,7 @@
+{
+  "name": "uncp/library-repository",
+  "description": "UNCP Library Repository - Sistem Informasi Perpustakaan Universitas Cokroaminoto Palopo",
+  "type": "project",
+  "require": {},
+  "autoload": {"psr-4": {"App\\": "app/"}}
+}

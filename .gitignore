@@ -1,0 +1,10 @@
+.env
+/vendor/
+/node_modules/
+storage/logs/*
+storage/backups/*
+storage/cache/*
+/uploads/profile/*
+/uploads/books/*
+/uploads/repository/*
+!.gitkeep
